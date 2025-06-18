@@ -1,13 +1,14 @@
 .title {
-    background-color: blanchedalmond;
-    border: 20px solid red ;
+    background-color: gold;
+    border: 20px solid blue ;
     border-radius: 0 25PX 0 20PX;
     padding: 50px;
     margin: 20px;
+    
 }
 
 .title:hover{
-    background-color: aliceblue;
+    background-color: rgb(255, 238, 138);
 }
 
 .title::after{
