@@ -1,10 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+
+
 .title {
     background-color: gold;
     border: 20px solid blue ;
     border-radius: 0 25PX 0 20PX;
     padding: 50px;
     margin: 20px;
-    
+    color: white;
 }
 
 .title:hover{
@@ -13,4 +19,14 @@
 
 .title::after{
     background-color: brown;
+}
+.text{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 20px 25PX 20px 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 200px;
+    
 }
