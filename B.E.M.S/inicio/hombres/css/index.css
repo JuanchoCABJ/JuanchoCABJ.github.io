@@ -1,0 +1,20 @@
+.filters{
+    display: flex;
+    justify-content: flex-start; /* Alinea a la izquierda */
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px; /* Opcional: espacio desde el borde */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    box-sizing: border-box; /* Para que el padding no rompa el layout */
+}
+body{
+background-color: rgb(240, 156, 240);
+}
+form{
+background-color: rgb(63, 63, 63);
+border-radius: 50px;
+display:flex;
+align-items: center;
+flex-direction: column;
+padding: 50px;
+}
