@@ -2,16 +2,33 @@ body{
     background-color: aqua;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-.title {
+.title1 {
     background-color: gold;
     border: 20px solid blue ;
     border-radius: 0 25PX 0 20PX;
     padding: 50px;
     margin: 20px;
     color: white;
+    width: 600px;
+    height: 180px;
 }
+
+.title2 {
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 0 25PX 0 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 300px;
+    height: 10px;
+}
+
 
 .title:hover{
     background-color: rgb(255, 238, 138);
@@ -20,13 +37,80 @@ body{
 .title::after{
     background-color: brown;
 }
-.text{
+.text1{
     background-color: gold;
     border: 20px solid blue ;
     border-radius: 20px 25PX 20px 20PX;
     padding: 50px;
     margin: 20px;
     color: white;
-    width: 200px;
+    width: 300px;
+    height: 10px;
     
+}
+.text2{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 20px 25PX 20px 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 300px;
+    height: 10px;
+}
+.text3{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 20px 25PX 20px 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 300px;
+    height: 10px;
+    
+}
+.bigtext{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 0 25PX 0 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+}
+.text4{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 20px 25PX 20px 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    
+}.text5{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 20px 25PX 20px 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    
+}
+.cuadro{
+    background-color: gold;
+    border: 20px solid blue ;
+    border-radius: 0 25PX 0 20PX;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    width: 800px;
+    height: 260px;
+}
+.div2{
+    display: flex;
+}
+.div3{
+    justify-content: column;
 }
